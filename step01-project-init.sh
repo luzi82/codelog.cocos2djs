@@ -29,7 +29,7 @@ tar -xzvf android-sdk_r24.2-linux.tgz
 pushd android-sdk-linux/tools
 expect -c '
 set timeout -1 ;
-spawn ./android update sdk -u -t platform,platform-tool,build-tools-21.1.2,system-image,tool;
+spawn ./android update sdk -u -t platform,platform-tool,build-tools-22.0.1,system-image,tool;
 expect {
     "Do you accept the license" { exp_send "y\r" ; exp_continue }
     eof
