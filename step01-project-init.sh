@@ -3,6 +3,8 @@
 # force quit when error
 set -e
 
+# sudo apt-get unzip cmake
+
 rm -rf 3rd-party
 
 mkdir 3rd-party
